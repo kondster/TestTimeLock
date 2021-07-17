@@ -13,8 +13,8 @@ contract ToptalToken is ERC20 {
   mapping(address => uint256) balances;
   mapping (address => mapping (address => uint256)) internal allowed;
 
-  string public name = "CAKE";
-  string public symbol = "Cake";
+  string public name = "XTT";
+  string public symbol = "XTT";
   uint256 public decimals = 18;
 
   function ToptalToken() public {
